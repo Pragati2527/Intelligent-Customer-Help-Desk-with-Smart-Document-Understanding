@@ -31,12 +31,14 @@ Project Deliverables:
 4.Build a web application with integration to all these services & deploy the same on IBM Cloud Platform
 
 What is SDU?
+
 SDU trains Watson Discovery to extract custom fields in your documents. Customizing how your documents are indexed into Discovery will
 improve the answers returned from queries.
 With SDU, you annotate fields within your documents to train custom conversion models. As you annotate, Watson is learning and will 
 start predicting annotations. SDU models can also be exported and used on other collections.
 
 What is a webhook?
+
 A webhook is a mechanism that allows you to call out to an external program based on something happening in your program. When used in 
 a Watson Assistant dialog skill, a webhook is triggered when the Assistant processes a node that has a webhook enabled. The webhook 
 collects data that you specify or that you collect from the user during the conversation and save in context variables, and sends the 
